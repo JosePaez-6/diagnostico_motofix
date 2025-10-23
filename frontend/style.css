@@ -1,0 +1,25 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+  border-radius: 15px;
+}
+
+#resultado .card {
+  margin-top: 15px;
+  border-left: 5px solid #0d6efd;
+  border-radius: 10px;
+}
+
+#resultado .card h3 {
+  color: #0d6efd;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+#resultado .card p {
+  font-size: 0.95rem;
+  color: #444;
+  white-space: pre-line;
+}
