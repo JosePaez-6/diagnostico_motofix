@@ -30,7 +30,7 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://tusitio.vercel.app",  # 👈 cambia esto por tu dominio real de Vercel
+        "https://motofix-six.vercel.app",  # 👈 cambia esto por tu dominio real de Vercel
         "http://localhost:3000",       # opcional para pruebas locales
     ],
     allow_credentials=True,
